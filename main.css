@@ -9,7 +9,7 @@ body, html{
 }
 
 
-.mav, .projects, .developers, .contact{
+.exhibit, .orientation, .quiz-con, .workshop, .game-of-codes, .company-talks{
   position: relative;
   opacity: 0.70;
   background-position:center;
@@ -21,23 +21,30 @@ body, html{
 
 
 
-.mav{
-  background-image:url('../img/mav.jpg');
+.exhibit{
+  background-image:url('img/exhibit.png');
   min-height: 400px;
 }
-.projects{
-  background-image:url('img/projects.jpg');
+.orientation{
+  background-image:url('img/orientation.png');
   min-height: 400px;
 }
-.developers{
-  background-image:url('img/developers.jpg');
+.quiz-con{
+  background-image:url('img/quizcon.png');
   min-height: 400px;
 }
-.contact{
-  background-image:url('img/contact.jpg');
+.workshop{
+  background-image:url('img/workshop.png');
   min-height: 400px;
 }
-
+.game-of-codes{
+  background-image:url('img/goc.png');
+  min-height: 400px;
+}
+.company-talks{
+  background-image:url('img/company-talk.png');
+  min-height: 400px;
+}
 .section{
   text-align: center;
   padding: 50px 80px;
@@ -73,7 +80,7 @@ body, html{
 
 
 @media(max-width: 568px){
-  .home, .mav, .projects, .developers, .contact{
+  .home, .exhibit, .orientation, .quiz-con, .workshop, .game-of-codes, .company-talks{
     background-attachment: scroll;
   }
 }
